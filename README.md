@@ -21,11 +21,6 @@ This data was provided by [Statcan](https://www150.statcan.gc.ca/t1/tbl1/en/cv.a
 
 ## Images
 
-**Please remember to update this section and remove the test image!**
-
-{You can use this area for any images you want to include}
-
-<img src ="images/test.png" width="100px">
 
 ## References
 
