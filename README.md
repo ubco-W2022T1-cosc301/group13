@@ -17,7 +17,7 @@ This data was provided by [Statcan](https://www150.statcan.gc.ca/t1/tbl1/en/cv.a
 ## Team Members
 
 - Gaurang Bharti - I enjoy programming and Philosophy!
-- Person 2: one sentence about you!
+- Kristina Safonova: I am a History Major 4th year student.
 
 ## Images
 
