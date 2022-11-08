@@ -11,7 +11,9 @@ def load_and_process(path):
                 'Kitchener-Cambridge-Waterloo, Ontario', 'Guelph, Ontario', 'London, Ontario', 
                 'Windsor, Ontario', 'Greater Sudbury, Ontario 12', 'Prairie Region', 
                 'Kelowna, British Columbia', 'Vancouver, British Columbia', 
-                'Victoria, British Columbia', 'year', 'month'], axis=1).reset_index(drop=True)
+                'Victoria, British Columbia', 'year', 'month'], axis=1)
+                .rename(columns={'Month-year': 'REF_DATE'})
+                .reset_index(drop=True)
         )
 
         dataSet2 = pd.read_csv(str(path) + "population-by-region-1946-2022 (1).csv")
@@ -22,6 +24,5 @@ def load_and_process(path):
             .reset_index(drop=True)
         )
         
-        df3 = df1.join(df2, lsuffix='_l', rsuffix='_r')
-        
+        df3 = (df1.merge(df2, how='inner'))
         return df3
