@@ -11,7 +11,7 @@ def load_and_process(path):
                 'Kitchener-Cambridge-Waterloo, Ontario', 'Guelph, Ontario', 'London, Ontario', 
                 'Windsor, Ontario', 'Greater Sudbury, Ontario 12', 'Prairie Region', 
                 'Kelowna, British Columbia', 'Vancouver, British Columbia', 
-                'Victoria, British Columbia', 'year', 'month'], axis=1)
+                'Victoria, British Columbia', 'month'], axis=1)
                 .rename(columns={'Month-year': 'REF_DATE'})
                 .reset_index(drop=True)
         )
@@ -20,7 +20,7 @@ def load_and_process(path):
         df2 = (
                 pd.DataFrame(data=dataSet2,columns=dataSet2.columns)
             .drop(['DGUID', 'VECTOR', 'COORDINATE'], axis=1)
-            .iloc[1556]
+            .iloc[1700:]
             .reset_index(drop=True)
         )
         
