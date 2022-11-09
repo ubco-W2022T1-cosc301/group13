@@ -9,7 +9,7 @@ def load_and_process(path):
         .set_axis(['Year', 'Province', 'Population'], axis='columns')
         .iloc[-80:]
     )
-    dataset_population_by_region['Year'] = pd.DatetimeIndex(pd.to_datetime(dataset_population_by_region['Year'], format='%b-%y')).year
+    dataset_population_by_region['Year'] = pd.DatetimeIndex(pd.to_datetime(dataset_population_by_region['Year'], format='%b-%y')).year.astype(int)
    
     dataset_hpi_by_region = (
         pd.read_csv(str(path) + 'hpi_by_region.csv')
@@ -17,7 +17,9 @@ def load_and_process(path):
         .loc[:, ['Type', 'British Columbia ', 'year']]
         .set_axis(['Type', 'BC-HPI', 'Year'], axis='columns')
         .iloc[-740:-498]
+        .astype({'Year': int})
     )
+    
     
     dataset_vacancy_rate = (
         pd.read_csv(str(path) + 'housing-supply-and-rental/british columbia_section1_.csv')
@@ -25,10 +27,11 @@ def load_and_process(path):
         .loc[:, ['Unnamed: 0', 'Rental vacancy rate (%)3']]
         .set_axis(['Year', 'Vacancy Rate(%)'], axis='columns')
         .iloc[-17:-2]
+        .astype({'Year': int})
     )
     
     final_data1 = (dataset_population_by_region.merge(dataset_hpi_by_region, how='inner'))
-    final_data2 =
+    final_data2 = (dataset_vacancy_rate.merge(final_data1, how='inner'))
     
     return final_data2
     
