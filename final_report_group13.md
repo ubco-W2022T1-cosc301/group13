@@ -11,6 +11,14 @@ Here, we're able to see how many new dwellings (places to live) have their const
 #### Comments
 This bar graph gives us an understanding of the trend Average Income has followed in Vancouver. It has been rising consistently for quite a while now - but does not seem to follow the trends of HPI. Further analysis is needed but this is a good overview of its progression over the years.
 
+![Canada's HPI](images/michael_eda1.PNG)
+#### Comments
+We can see the general trend of the Housing Price Index scores, Canada wide, over the last 40 years. Overall, Canada's HPI score has increased significantly, but not smoothly. By looking at the trends of other variables, like population, we can see what does and what doesn't have notable influence over HPI scores in Canada.
+
+![Population by Region](images/michael_eda2.PNG)
+#### Comments
+After some processing, we'll return to this chart, but for now we can see right away that the population in each region of Canada has increased quite linearly - very different from how HPI has changed overall. 
+
 ### Research Question 1 + Results:
 Question: How has Income Distribution and Population impacted housing prices in Vancouver?
 
@@ -31,6 +39,22 @@ Very interesting! This explains a lot. Average income and Population have been i
 ### Research Question 2 + Results:
 
 ### Research Question 3 + Results:
+Question: How do changes in population affect the Housing Price Index across Canada?
+
+![Population by Region](images/michael_rq3.PNG)
+
+#### Comments
+Here is the chart of populations by region over the years after a little touching-up. I'll be using this in comparisons with HPI scores by regions, to see if the population and HPI changes are similar, or if perhaps I am wrong and the population of a region does not strongly affect that region's HPI.
+
+![Ontario HPI](images/michael_rq4.PNG)
+
+#### Comments
+First, I took a look at Ontario. While the HPI scores in Ontario have increased overall, there have been dips and plateaus that are not seen in our population data for the region. Beyond that, the increase in HPI is far steeper - the lines have almost nothing in common. With a steady increase in population but variable changes in HPI in Ontario, it's unlikely that population is a primary driver of HPI values here. 
+
+![Prince Edward Island HPI](images/michael_rq5.PNG)
+
+#### Comments
+To compare with Ontario, I wanted to take a look at Prince Edward Island and the HPI trend there, as it is a very different region from Ontario. We can see that the trend in Prince Edward Island has been quite different from the trend in Ontario, although similar in the last few (exceptional!) years. However, if we take a look at the population trends for these regions, we see that they are both stable and linear. This is not what I expected to see!
 
 ## Summary/Conclusion
 #### Research Question 1: 
@@ -38,3 +62,9 @@ How has Income Distribution and Population impacted housing prices in Vancouver?
 
 #### Conclusion: 
 From the analysis, we were able to see the discrepancy that exists with the Supply and Demand of housing in Vancouver. This would naturally cause an increase in the housing market. Alongside that, we see the steady increase in average income. This shows us that while the prices have gone up - so has the average income, explaining why the HPI has continued to rise - the population has been able to keep up with the pricing. One solution to this is fairly obvious - if there was an increase in total dwellings, enough to get closer to the growth of population, the HPI would be more under control. While there are multiple other factors influencing HPI that cannot be determined through this dataset as its quite a complex calculation - fixing the gap between supply and demand is a good start to fixing the housing prices.
+
+#### Research Question 3:
+How do changes in population affect the Housing Price Index across Canada?
+
+#### Conclusion:
+After comparing the population changes with the HPI changes for different regions across Canada, as well as comparing the HPI changes across regions to each other, I can see that my hypothesis was wrong. While I thought that population changes in a region would be directly reflected in the HPI trend for that region, it appears as though that is untrue. With a steady population but variable changes in HPI, population can't be a main driver - and beyond that, the HPI changes differ between ranges. For example, scores in P.E.I. plateaued between 2010 and 2015, but increased in Ontario during that same period. This suggests that the main variables responsible for affecting HPI scores are regional, once again ruling out population as population has steadily increased across all regions in Canada. This is still useful however, as now we know not to worry about population changes as we look for solutions to the unreasonable housing prices here in Canada.
