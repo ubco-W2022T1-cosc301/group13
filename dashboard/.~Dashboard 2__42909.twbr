@@ -1,0 +1,2883 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20223.22.1005.1835                               -->
+<workbook original-version='18.1' source-build='2022.3.0 (20223.22.1005.1835)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='british columbia_section1_' inline='true' name='federated.00onm7i15tqcva1a2gj8v1pafma0' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='british columbia_section1_' name='textscan.05rij9r1qtoced1glftep1o4ou1k'>
+            <connection class='textscan' directory='/Users/kristina/Desktop/2022-2023W/COSC301/group_project/group13/data/raw/housing-supply-and-rental' filename='british columbia_section1_.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.05rij9r1qtoced1glftep1o4ou1k' name='british columbia_section1_.csv' table='[british columbia_section1_#csv]' type='table'>
+          <columns character-set='UTF-8' header='no' locale='en_CA' separator=','>
+            <column datatype='string' name='F1' ordinal='0' />
+            <column datatype='string' name='F2' ordinal='1' />
+            <column datatype='string' name='F3' ordinal='2' />
+            <column datatype='string' name='F4' ordinal='3' />
+            <column datatype='string' name='F5' ordinal='4' />
+            <column datatype='string' name='F6' ordinal='5' />
+            <column datatype='string' name='F7' ordinal='6' />
+            <column datatype='string' name='F8' ordinal='7' />
+            <column datatype='string' name='F9' ordinal='8' />
+            <column datatype='string' name='F10' ordinal='9' />
+            <column datatype='string' name='F11' ordinal='10' />
+            <column datatype='string' name='F12' ordinal='11' />
+            <column datatype='string' name='F13' ordinal='12' />
+            <column datatype='string' name='F14' ordinal='13' />
+            <column datatype='string' name='F15' ordinal='14' />
+            <column datatype='string' name='F16' ordinal='15' />
+            <column datatype='string' name='F17' ordinal='16' />
+            <column datatype='string' name='F18' ordinal='17' />
+            <column datatype='string' name='F19' ordinal='18' />
+            <column datatype='string' name='F20' ordinal='19' />
+            <column datatype='string' name='F21' ordinal='20' />
+            <column datatype='string' name='F22' ordinal='21' />
+            <column datatype='string' name='F23' ordinal='22' />
+            <column datatype='string' name='F24' ordinal='23' />
+            <column datatype='string' name='F25' ordinal='24' />
+            <column datatype='string' name='F26' ordinal='25' />
+            <column datatype='string' name='F27' ordinal='26' />
+            <column datatype='string' name='F28' ordinal='27' />
+            <column datatype='string' name='F29' ordinal='28' />
+            <column datatype='string' name='F30' ordinal='29' />
+            <column datatype='string' name='F31' ordinal='30' />
+            <column datatype='string' name='F32' ordinal='31' />
+            <column datatype='string' name='F33' ordinal='32' />
+            <column datatype='string' name='F34' ordinal='33' />
+            <column datatype='string' name='F35' ordinal='34' />
+            <column datatype='string' name='F36' ordinal='35' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.05rij9r1qtoced1glftep1o4ou1k' name='british columbia_section1_.csv' table='[british columbia_section1_#csv]' type='table'>
+          <columns character-set='UTF-8' header='no' locale='en_CA' separator=','>
+            <column datatype='string' name='F1' ordinal='0' />
+            <column datatype='string' name='F2' ordinal='1' />
+            <column datatype='string' name='F3' ordinal='2' />
+            <column datatype='string' name='F4' ordinal='3' />
+            <column datatype='string' name='F5' ordinal='4' />
+            <column datatype='string' name='F6' ordinal='5' />
+            <column datatype='string' name='F7' ordinal='6' />
+            <column datatype='string' name='F8' ordinal='7' />
+            <column datatype='string' name='F9' ordinal='8' />
+            <column datatype='string' name='F10' ordinal='9' />
+            <column datatype='string' name='F11' ordinal='10' />
+            <column datatype='string' name='F12' ordinal='11' />
+            <column datatype='string' name='F13' ordinal='12' />
+            <column datatype='string' name='F14' ordinal='13' />
+            <column datatype='string' name='F15' ordinal='14' />
+            <column datatype='string' name='F16' ordinal='15' />
+            <column datatype='string' name='F17' ordinal='16' />
+            <column datatype='string' name='F18' ordinal='17' />
+            <column datatype='string' name='F19' ordinal='18' />
+            <column datatype='string' name='F20' ordinal='19' />
+            <column datatype='string' name='F21' ordinal='20' />
+            <column datatype='string' name='F22' ordinal='21' />
+            <column datatype='string' name='F23' ordinal='22' />
+            <column datatype='string' name='F24' ordinal='23' />
+            <column datatype='string' name='F25' ordinal='24' />
+            <column datatype='string' name='F26' ordinal='25' />
+            <column datatype='string' name='F27' ordinal='26' />
+            <column datatype='string' name='F28' ordinal='27' />
+            <column datatype='string' name='F29' ordinal='28' />
+            <column datatype='string' name='F30' ordinal='29' />
+            <column datatype='string' name='F31' ordinal='30' />
+            <column datatype='string' name='F32' ordinal='31' />
+            <column datatype='string' name='F33' ordinal='32' />
+            <column datatype='string' name='F34' ordinal='33' />
+            <column datatype='string' name='F35' ordinal='34' />
+            <column datatype='string' name='F36' ordinal='35' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[british columbia_section1_.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;false&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_CA&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[british columbia_section1_.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[british columbia_section1_.csv_F19A4736C6C34140B5A844F969A840AE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F2]</local-name>
+            <parent-name>[british columbia_section1_.csv]</parent-name>
+            <remote-alias>F2</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[british columbia_section1_.csv_F19A4736C6C34140B5A844F969A840AE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F3]</local-name>
+            <parent-name>[british columbia_section1_.csv]</parent-name>
+            <remote-alias>F3</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[british columbia_section1_.csv_F19A4736C6C34140B5A844F969A840AE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F4</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F4]</local-name>
+            <parent-name>[british columbia_section1_.csv]</parent-name>
+            <remote-alias>F4</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[british columbia_section1_.csv_F19A4736C6C34140B5A844F969A840AE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F5</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F5]</local-name>
+            <parent-name>[british columbia_section1_.csv]</parent-name>
+            <remote-alias>F5</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[british columbia_section1_.csv_F19A4736C6C34140B5A844F969A840AE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F6</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F6]</local-name>
+            <parent-name>[british columbia_section1_.csv]</parent-name>
+            <remote-alias>F6</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[british columbia_section1_.csv_F19A4736C6C34140B5A844F969A840AE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F7</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F7]</local-name>
+            <parent-name>[british columbia_section1_.csv]</parent-name>
+            <remote-alias>F7</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[british columbia_section1_.csv_F19A4736C6C34140B5A844F969A840AE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F8</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F8]</local-name>
+            <parent-name>[british columbia_section1_.csv]</parent-name>
+            <remote-alias>F8</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[british columbia_section1_.csv_F19A4736C6C34140B5A844F969A840AE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F9</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F9]</local-name>
+            <parent-name>[british columbia_section1_.csv]</parent-name>
+            <remote-alias>F9</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[british columbia_section1_.csv_F19A4736C6C34140B5A844F969A840AE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F10</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F10]</local-name>
+            <parent-name>[british columbia_section1_.csv]</parent-name>
+            <remote-alias>F10</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[british columbia_section1_.csv_F19A4736C6C34140B5A844F969A840AE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F11</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F11]</local-name>
+            <parent-name>[british columbia_section1_.csv]</parent-name>
+            <remote-alias>F11</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[british columbia_section1_.csv_F19A4736C6C34140B5A844F969A840AE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F12</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F12]</local-name>
+            <parent-name>[british columbia_section1_.csv]</parent-name>
+            <remote-alias>F12</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[british columbia_section1_.csv_F19A4736C6C34140B5A844F969A840AE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F13</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F13]</local-name>
+            <parent-name>[british columbia_section1_.csv]</parent-name>
+            <remote-alias>F13</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[british columbia_section1_.csv_F19A4736C6C34140B5A844F969A840AE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F14</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F14]</local-name>
+            <parent-name>[british columbia_section1_.csv]</parent-name>
+            <remote-alias>F14</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[british columbia_section1_.csv_F19A4736C6C34140B5A844F969A840AE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F15</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F15]</local-name>
+            <parent-name>[british columbia_section1_.csv]</parent-name>
+            <remote-alias>F15</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[british columbia_section1_.csv_F19A4736C6C34140B5A844F969A840AE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F16</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F16]</local-name>
+            <parent-name>[british columbia_section1_.csv]</parent-name>
+            <remote-alias>F16</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[british columbia_section1_.csv_F19A4736C6C34140B5A844F969A840AE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F17</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F17]</local-name>
+            <parent-name>[british columbia_section1_.csv]</parent-name>
+            <remote-alias>F17</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[british columbia_section1_.csv_F19A4736C6C34140B5A844F969A840AE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F18</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F18]</local-name>
+            <parent-name>[british columbia_section1_.csv]</parent-name>
+            <remote-alias>F18</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[british columbia_section1_.csv_F19A4736C6C34140B5A844F969A840AE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F19</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F19]</local-name>
+            <parent-name>[british columbia_section1_.csv]</parent-name>
+            <remote-alias>F19</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[british columbia_section1_.csv_F19A4736C6C34140B5A844F969A840AE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F20</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F20]</local-name>
+            <parent-name>[british columbia_section1_.csv]</parent-name>
+            <remote-alias>F20</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[british columbia_section1_.csv_F19A4736C6C34140B5A844F969A840AE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F21</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F21]</local-name>
+            <parent-name>[british columbia_section1_.csv]</parent-name>
+            <remote-alias>F21</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[british columbia_section1_.csv_F19A4736C6C34140B5A844F969A840AE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F22</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F22]</local-name>
+            <parent-name>[british columbia_section1_.csv]</parent-name>
+            <remote-alias>F22</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[british columbia_section1_.csv_F19A4736C6C34140B5A844F969A840AE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F23</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F23]</local-name>
+            <parent-name>[british columbia_section1_.csv]</parent-name>
+            <remote-alias>F23</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[british columbia_section1_.csv_F19A4736C6C34140B5A844F969A840AE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F24</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F24]</local-name>
+            <parent-name>[british columbia_section1_.csv]</parent-name>
+            <remote-alias>F24</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[british columbia_section1_.csv_F19A4736C6C34140B5A844F969A840AE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F25</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F25]</local-name>
+            <parent-name>[british columbia_section1_.csv]</parent-name>
+            <remote-alias>F25</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[british columbia_section1_.csv_F19A4736C6C34140B5A844F969A840AE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F26</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F26]</local-name>
+            <parent-name>[british columbia_section1_.csv]</parent-name>
+            <remote-alias>F26</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[british columbia_section1_.csv_F19A4736C6C34140B5A844F969A840AE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F27</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F27]</local-name>
+            <parent-name>[british columbia_section1_.csv]</parent-name>
+            <remote-alias>F27</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[british columbia_section1_.csv_F19A4736C6C34140B5A844F969A840AE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F28</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F28]</local-name>
+            <parent-name>[british columbia_section1_.csv]</parent-name>
+            <remote-alias>F28</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[british columbia_section1_.csv_F19A4736C6C34140B5A844F969A840AE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F29</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F29]</local-name>
+            <parent-name>[british columbia_section1_.csv]</parent-name>
+            <remote-alias>F29</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[british columbia_section1_.csv_F19A4736C6C34140B5A844F969A840AE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F30</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F30]</local-name>
+            <parent-name>[british columbia_section1_.csv]</parent-name>
+            <remote-alias>F30</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[british columbia_section1_.csv_F19A4736C6C34140B5A844F969A840AE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F31</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F31]</local-name>
+            <parent-name>[british columbia_section1_.csv]</parent-name>
+            <remote-alias>F31</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[british columbia_section1_.csv_F19A4736C6C34140B5A844F969A840AE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F32</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F32]</local-name>
+            <parent-name>[british columbia_section1_.csv]</parent-name>
+            <remote-alias>F32</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[british columbia_section1_.csv_F19A4736C6C34140B5A844F969A840AE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F33</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F33]</local-name>
+            <parent-name>[british columbia_section1_.csv]</parent-name>
+            <remote-alias>F33</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[british columbia_section1_.csv_F19A4736C6C34140B5A844F969A840AE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F34</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F34]</local-name>
+            <parent-name>[british columbia_section1_.csv]</parent-name>
+            <remote-alias>F34</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[british columbia_section1_.csv_F19A4736C6C34140B5A844F969A840AE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F35</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F35]</local-name>
+            <parent-name>[british columbia_section1_.csv]</parent-name>
+            <remote-alias>F35</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[british columbia_section1_.csv_F19A4736C6C34140B5A844F969A840AE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F36</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F36]</local-name>
+            <parent-name>[british columbia_section1_.csv]</parent-name>
+            <remote-alias>F36</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[british columbia_section1_.csv_F19A4736C6C34140B5A844F969A840AE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Vacancy Rate' datatype='string' name='[F19]' role='dimension' type='nominal' />
+      <column caption='Year' datatype='string' name='[F1]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='british columbia_section1_.csv' datatype='table' name='[__tableau_internal_object_id__].[british columbia_section1_.csv_F19A4736C6C34140B5A844F969A840AE]' role='measure' type='quantitative' />
+      <column-instance column='[__tableau_internal_object_id__].[british columbia_section1_.csv_F19A4736C6C34140B5A844F969A840AE]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:british columbia_section1_.csv_F19A4736C6C34140B5A844F969A840AE:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[F19]' derivation='None' name='[none:F19:nk]' pivot='key' type='nominal' />
+      <column-instance column='[F1]' derivation='None' name='[none:F1:nk]' pivot='key' type='nominal' />
+      <group caption='Action (Year)' hidden='true' name='[Action (Year)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[F1]' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:F1:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;1997&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;2008&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;2000&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;1993&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;2004&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;2012&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;state&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;1998&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;2009&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;1994&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;2005&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;1990&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;2001&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;2016&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;1995&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;2006&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;2013&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;2014&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;1991&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;1999&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;2010&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;1996&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;2007&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;2002&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;2015&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;2011&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;category&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;1992&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;2003&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='shape' field='[:Measure Names]' type='shape'>
+            <map to='circle'>
+              <bucket>&quot;[federated.00onm7i15tqcva1a2gj8v1pafma0].[__tableau_internal_object_id__].[cnt:british columbia_section1_.csv_F19A4736C6C34140B5A844F969A840AE:qk]&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;[federated.00onm7i15tqcva1a2gj8v1pafma0]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:F19:nk]' palette='red_gold_10_0' type='palette'>
+            <map to='#b71d3e'>
+              <bucket>&quot;0.9&quot;</bucket>
+            </map>
+            <map to='#b71d3e'>
+              <bucket>&quot;1&quot;</bucket>
+            </map>
+            <map to='#c43141'>
+              <bucket>&quot;1.2&quot;</bucket>
+            </map>
+            <map to='#cf4244'>
+              <bucket>&quot;1.3&quot;</bucket>
+            </map>
+            <map to='#d14544'>
+              <bucket>&quot;1.4&quot;</bucket>
+            </map>
+            <map to='#db5247'>
+              <bucket>&quot;1.5&quot;</bucket>
+            </map>
+            <map to='#de5747'>
+              <bucket>&quot;1.8&quot;</bucket>
+            </map>
+            <map to='#e56249'>
+              <bucket>&quot;1.9&quot;</bucket>
+            </map>
+            <map to='#e96949'>
+              <bucket>&quot;2&quot;</bucket>
+            </map>
+            <map to='#ee734a'>
+              <bucket>&quot;2.3&quot;</bucket>
+            </map>
+            <map to='#ee734a'>
+              <bucket>&quot;2.4&quot;</bucket>
+            </map>
+            <map to='#f4d166'>
+              <bucket>&quot;3.6&quot;</bucket>
+            </map>
+            <map to='#f4d166'>
+              <bucket>&quot;Rental vacancy rate (\%)3&quot;</bucket>
+            </map>
+            <map to='#f5c65e'>
+              <bucket>&quot;british columbia&quot;</bucket>
+            </map>
+            <map to='#f6834b'>
+              <bucket>&quot;2.6&quot;</bucket>
+            </map>
+            <map to='#f6bb58'>
+              <bucket>&quot;availablesupply&quot;</bucket>
+            </map>
+            <map to='#f6be59'>
+              <bucket>&quot;3.1&quot;</bucket>
+            </map>
+            <map to='#f8b053'>
+              <bucket>&quot;5&quot;</bucket>
+            </map>
+            <map to='#f9a550'>
+              <bucket>&quot;3.4&quot;</bucket>
+            </map>
+            <map to='#f9aa51'>
+              <bucket>&quot;2.8&quot;</bucket>
+            </map>
+            <map to='#fc964e'>
+              <bucket>&quot;2.7&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='british columbia_section1_.csv' id='british columbia_section1_.csv_F19A4736C6C34140B5A844F969A840AE'>
+            <properties context=''>
+              <relation connection='textscan.05rij9r1qtoced1glftep1o4ou1k' name='british columbia_section1_.csv' table='[british columbia_section1_#csv]' type='table'>
+                <columns character-set='UTF-8' header='no' locale='en_CA' separator=','>
+                  <column datatype='string' name='F1' ordinal='0' />
+                  <column datatype='string' name='F2' ordinal='1' />
+                  <column datatype='string' name='F3' ordinal='2' />
+                  <column datatype='string' name='F4' ordinal='3' />
+                  <column datatype='string' name='F5' ordinal='4' />
+                  <column datatype='string' name='F6' ordinal='5' />
+                  <column datatype='string' name='F7' ordinal='6' />
+                  <column datatype='string' name='F8' ordinal='7' />
+                  <column datatype='string' name='F9' ordinal='8' />
+                  <column datatype='string' name='F10' ordinal='9' />
+                  <column datatype='string' name='F11' ordinal='10' />
+                  <column datatype='string' name='F12' ordinal='11' />
+                  <column datatype='string' name='F13' ordinal='12' />
+                  <column datatype='string' name='F14' ordinal='13' />
+                  <column datatype='string' name='F15' ordinal='14' />
+                  <column datatype='string' name='F16' ordinal='15' />
+                  <column datatype='string' name='F17' ordinal='16' />
+                  <column datatype='string' name='F18' ordinal='17' />
+                  <column datatype='string' name='F19' ordinal='18' />
+                  <column datatype='string' name='F20' ordinal='19' />
+                  <column datatype='string' name='F21' ordinal='20' />
+                  <column datatype='string' name='F22' ordinal='21' />
+                  <column datatype='string' name='F23' ordinal='22' />
+                  <column datatype='string' name='F24' ordinal='23' />
+                  <column datatype='string' name='F25' ordinal='24' />
+                  <column datatype='string' name='F26' ordinal='25' />
+                  <column datatype='string' name='F27' ordinal='26' />
+                  <column datatype='string' name='F28' ordinal='27' />
+                  <column datatype='string' name='F29' ordinal='28' />
+                  <column datatype='string' name='F30' ordinal='29' />
+                  <column datatype='string' name='F31' ordinal='30' />
+                  <column datatype='string' name='F32' ordinal='31' />
+                  <column datatype='string' name='F33' ordinal='32' />
+                  <column datatype='string' name='F34' ordinal='33' />
+                  <column datatype='string' name='F35' ordinal='34' />
+                  <column datatype='string' name='F36' ordinal='35' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='hpi_by_region.csv (Multiple Connections)' inline='true' name='federated.13vmq7804pcngk18oj9ee1evshbi' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='hpi_by_region' name='textscan.0xmztz11yt8on81b6xt0l0fxlsk2'>
+            <connection class='textscan' directory='/Users/kristina/Desktop/2022-2023W/COSC301/group_project/group13/data/raw' filename='hpi_by_region.csv' password='' server='' />
+          </named-connection>
+          <named-connection caption='population-by-region-1946-2022 (1)' name='textscan.1dhva6t08rbgw610gah1n08mnc49'>
+            <connection class='textscan' directory='/Users/kristina/Desktop/2022-2023W/COSC301/group_project/group13/data/raw' filename='population-by-region-1946-2022 (1).csv' password='' server='' />
+          </named-connection>
+          <named-connection caption='british columbia_section1_' name='textscan.1b51xak1yhjbl11454h3u1rh59p1'>
+            <connection class='textscan' directory='/Users/kristina/Desktop/2022-2023W/COSC301/group_project/group13/data/raw/housing-supply-and-rental' filename='british columbia_section1_.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0xmztz11yt8on81b6xt0l0fxlsk2' name='hpi_by_region.csv' table='[hpi_by_region#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='Type' ordinal='1' />
+            <column datatype='string' name='Month-year' ordinal='2' />
+            <column datatype='real' name='Canada' ordinal='3' />
+            <column datatype='real' name='Atlantic Region' ordinal='4' />
+            <column datatype='real' name='Newfoundland and Labrador' ordinal='5' />
+            <column datatype='real' name='Prince Edward Island' ordinal='6' />
+            <column datatype='real' name='Nova Scotia' ordinal='7' />
+            <column datatype='real' name='New Brunswick' ordinal='8' />
+            <column datatype='real' name='Quebec' ordinal='9' />
+            <column datatype='real' name='Quebec City, Quebec' ordinal='10' />
+            <column datatype='real' name='Sherbrooke, Quebec' ordinal='11' />
+            <column datatype='real' name='Trois-Rivieres, Quebec' ordinal='12' />
+            <column datatype='real' name='Montreal, Quebec' ordinal='13' />
+            <column datatype='real' name='Ottawa-Gatineau, Quebec part' ordinal='14' />
+            <column datatype='real' name='Ontario ' ordinal='15' />
+            <column datatype='real' name='Ottawa-Gatineau, Ontario part' ordinal='16' />
+            <column datatype='real' name='Oshawa, Ontario ' ordinal='17' />
+            <column datatype='real' name='Toronto, Ontario' ordinal='18' />
+            <column datatype='real' name='Hamilton, Ontario' ordinal='19' />
+            <column datatype='real' name='St. Catharines-Niagara, Ontario' ordinal='20' />
+            <column datatype='real' name='Kitchener-Cambridge-Waterloo, Ontario' ordinal='21' />
+            <column datatype='real' name='Guelph, Ontario' ordinal='22' />
+            <column datatype='real' name='London, Ontario' ordinal='23' />
+            <column datatype='real' name='Windsor, Ontario' ordinal='24' />
+            <column datatype='real' name='Greater Sudbury, Ontario 12' ordinal='25' />
+            <column datatype='real' name='Prairie Region' ordinal='26' />
+            <column datatype='real' name='Manitoba' ordinal='27' />
+            <column datatype='real' name='Saskatchewan' ordinal='28' />
+            <column datatype='real' name='Alberta' ordinal='29' />
+            <column datatype='real' name='British Columbia ' ordinal='30' />
+            <column datatype='real' name='Kelowna, British Columbia' ordinal='31' />
+            <column datatype='real' name='Vancouver, British Columbia' ordinal='32' />
+            <column datatype='real' name='Victoria, British Columbia' ordinal='33' />
+            <column datatype='date' name='Month-Year' ordinal='34' />
+            <column datatype='integer' name='year' ordinal='35' />
+            <column datatype='integer' name='month' ordinal='36' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0xmztz11yt8on81b6xt0l0fxlsk2' name='hpi_by_region.csv' table='[hpi_by_region#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='Type' ordinal='1' />
+            <column datatype='string' name='Month-year' ordinal='2' />
+            <column datatype='real' name='Canada' ordinal='3' />
+            <column datatype='real' name='Atlantic Region' ordinal='4' />
+            <column datatype='real' name='Newfoundland and Labrador' ordinal='5' />
+            <column datatype='real' name='Prince Edward Island' ordinal='6' />
+            <column datatype='real' name='Nova Scotia' ordinal='7' />
+            <column datatype='real' name='New Brunswick' ordinal='8' />
+            <column datatype='real' name='Quebec' ordinal='9' />
+            <column datatype='real' name='Quebec City, Quebec' ordinal='10' />
+            <column datatype='real' name='Sherbrooke, Quebec' ordinal='11' />
+            <column datatype='real' name='Trois-Rivieres, Quebec' ordinal='12' />
+            <column datatype='real' name='Montreal, Quebec' ordinal='13' />
+            <column datatype='real' name='Ottawa-Gatineau, Quebec part' ordinal='14' />
+            <column datatype='real' name='Ontario ' ordinal='15' />
+            <column datatype='real' name='Ottawa-Gatineau, Ontario part' ordinal='16' />
+            <column datatype='real' name='Oshawa, Ontario ' ordinal='17' />
+            <column datatype='real' name='Toronto, Ontario' ordinal='18' />
+            <column datatype='real' name='Hamilton, Ontario' ordinal='19' />
+            <column datatype='real' name='St. Catharines-Niagara, Ontario' ordinal='20' />
+            <column datatype='real' name='Kitchener-Cambridge-Waterloo, Ontario' ordinal='21' />
+            <column datatype='real' name='Guelph, Ontario' ordinal='22' />
+            <column datatype='real' name='London, Ontario' ordinal='23' />
+            <column datatype='real' name='Windsor, Ontario' ordinal='24' />
+            <column datatype='real' name='Greater Sudbury, Ontario 12' ordinal='25' />
+            <column datatype='real' name='Prairie Region' ordinal='26' />
+            <column datatype='real' name='Manitoba' ordinal='27' />
+            <column datatype='real' name='Saskatchewan' ordinal='28' />
+            <column datatype='real' name='Alberta' ordinal='29' />
+            <column datatype='real' name='British Columbia ' ordinal='30' />
+            <column datatype='real' name='Kelowna, British Columbia' ordinal='31' />
+            <column datatype='real' name='Vancouver, British Columbia' ordinal='32' />
+            <column datatype='real' name='Victoria, British Columbia' ordinal='33' />
+            <column datatype='date' name='Month-Year' ordinal='34' />
+            <column datatype='integer' name='year' ordinal='35' />
+            <column datatype='integer' name='month' ordinal='36' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[hpi_by_region.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_CA&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[hpi_by_region.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[hpi_by_region.csv_E9899F3D5F2043BBA3BD02EB0845218E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Type]</local-name>
+            <parent-name>[hpi_by_region.csv]</parent-name>
+            <remote-alias>Type</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[hpi_by_region.csv_E9899F3D5F2043BBA3BD02EB0845218E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Month-year</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Month-year]</local-name>
+            <parent-name>[hpi_by_region.csv]</parent-name>
+            <remote-alias>Month-year</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[hpi_by_region.csv_E9899F3D5F2043BBA3BD02EB0845218E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Canada</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Canada]</local-name>
+            <parent-name>[hpi_by_region.csv]</parent-name>
+            <remote-alias>Canada</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[hpi_by_region.csv_E9899F3D5F2043BBA3BD02EB0845218E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Atlantic Region</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Atlantic Region]</local-name>
+            <parent-name>[hpi_by_region.csv]</parent-name>
+            <remote-alias>Atlantic Region</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[hpi_by_region.csv_E9899F3D5F2043BBA3BD02EB0845218E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Newfoundland and Labrador</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Newfoundland and Labrador]</local-name>
+            <parent-name>[hpi_by_region.csv]</parent-name>
+            <remote-alias>Newfoundland and Labrador</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[hpi_by_region.csv_E9899F3D5F2043BBA3BD02EB0845218E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Prince Edward Island</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Prince Edward Island]</local-name>
+            <parent-name>[hpi_by_region.csv]</parent-name>
+            <remote-alias>Prince Edward Island</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[hpi_by_region.csv_E9899F3D5F2043BBA3BD02EB0845218E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Nova Scotia</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Nova Scotia]</local-name>
+            <parent-name>[hpi_by_region.csv]</parent-name>
+            <remote-alias>Nova Scotia</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[hpi_by_region.csv_E9899F3D5F2043BBA3BD02EB0845218E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>New Brunswick</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[New Brunswick]</local-name>
+            <parent-name>[hpi_by_region.csv]</parent-name>
+            <remote-alias>New Brunswick</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[hpi_by_region.csv_E9899F3D5F2043BBA3BD02EB0845218E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Quebec</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Quebec]</local-name>
+            <parent-name>[hpi_by_region.csv]</parent-name>
+            <remote-alias>Quebec</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[hpi_by_region.csv_E9899F3D5F2043BBA3BD02EB0845218E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Quebec City, Quebec</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Quebec City, Quebec]</local-name>
+            <parent-name>[hpi_by_region.csv]</parent-name>
+            <remote-alias>Quebec City, Quebec</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[hpi_by_region.csv_E9899F3D5F2043BBA3BD02EB0845218E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sherbrooke, Quebec</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sherbrooke, Quebec]</local-name>
+            <parent-name>[hpi_by_region.csv]</parent-name>
+            <remote-alias>Sherbrooke, Quebec</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[hpi_by_region.csv_E9899F3D5F2043BBA3BD02EB0845218E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Trois-Rivieres, Quebec</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Trois-Rivieres, Quebec]</local-name>
+            <parent-name>[hpi_by_region.csv]</parent-name>
+            <remote-alias>Trois-Rivieres, Quebec</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[hpi_by_region.csv_E9899F3D5F2043BBA3BD02EB0845218E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Montreal, Quebec</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Montreal, Quebec]</local-name>
+            <parent-name>[hpi_by_region.csv]</parent-name>
+            <remote-alias>Montreal, Quebec</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[hpi_by_region.csv_E9899F3D5F2043BBA3BD02EB0845218E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ottawa-Gatineau, Quebec part</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Ottawa-Gatineau, Quebec part]</local-name>
+            <parent-name>[hpi_by_region.csv]</parent-name>
+            <remote-alias>Ottawa-Gatineau, Quebec part</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[hpi_by_region.csv_E9899F3D5F2043BBA3BD02EB0845218E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ontario </remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Ontario ]</local-name>
+            <parent-name>[hpi_by_region.csv]</parent-name>
+            <remote-alias>Ontario </remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[hpi_by_region.csv_E9899F3D5F2043BBA3BD02EB0845218E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ottawa-Gatineau, Ontario part</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Ottawa-Gatineau, Ontario part]</local-name>
+            <parent-name>[hpi_by_region.csv]</parent-name>
+            <remote-alias>Ottawa-Gatineau, Ontario part</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[hpi_by_region.csv_E9899F3D5F2043BBA3BD02EB0845218E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Oshawa, Ontario </remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Oshawa, Ontario ]</local-name>
+            <parent-name>[hpi_by_region.csv]</parent-name>
+            <remote-alias>Oshawa, Ontario </remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[hpi_by_region.csv_E9899F3D5F2043BBA3BD02EB0845218E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Toronto, Ontario</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Toronto, Ontario]</local-name>
+            <parent-name>[hpi_by_region.csv]</parent-name>
+            <remote-alias>Toronto, Ontario</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[hpi_by_region.csv_E9899F3D5F2043BBA3BD02EB0845218E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hamilton, Ontario</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Hamilton, Ontario]</local-name>
+            <parent-name>[hpi_by_region.csv]</parent-name>
+            <remote-alias>Hamilton, Ontario</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[hpi_by_region.csv_E9899F3D5F2043BBA3BD02EB0845218E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>St. Catharines-Niagara, Ontario</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[St. Catharines-Niagara, Ontario]</local-name>
+            <parent-name>[hpi_by_region.csv]</parent-name>
+            <remote-alias>St. Catharines-Niagara, Ontario</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[hpi_by_region.csv_E9899F3D5F2043BBA3BD02EB0845218E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Kitchener-Cambridge-Waterloo, Ontario</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Kitchener-Cambridge-Waterloo, Ontario]</local-name>
+            <parent-name>[hpi_by_region.csv]</parent-name>
+            <remote-alias>Kitchener-Cambridge-Waterloo, Ontario</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[hpi_by_region.csv_E9899F3D5F2043BBA3BD02EB0845218E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Guelph, Ontario</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Guelph, Ontario]</local-name>
+            <parent-name>[hpi_by_region.csv]</parent-name>
+            <remote-alias>Guelph, Ontario</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[hpi_by_region.csv_E9899F3D5F2043BBA3BD02EB0845218E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>London, Ontario</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[London, Ontario]</local-name>
+            <parent-name>[hpi_by_region.csv]</parent-name>
+            <remote-alias>London, Ontario</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[hpi_by_region.csv_E9899F3D5F2043BBA3BD02EB0845218E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Windsor, Ontario</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Windsor, Ontario]</local-name>
+            <parent-name>[hpi_by_region.csv]</parent-name>
+            <remote-alias>Windsor, Ontario</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[hpi_by_region.csv_E9899F3D5F2043BBA3BD02EB0845218E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Greater Sudbury, Ontario 12</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Greater Sudbury, Ontario 12]</local-name>
+            <parent-name>[hpi_by_region.csv]</parent-name>
+            <remote-alias>Greater Sudbury, Ontario 12</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[hpi_by_region.csv_E9899F3D5F2043BBA3BD02EB0845218E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Prairie Region</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Prairie Region]</local-name>
+            <parent-name>[hpi_by_region.csv]</parent-name>
+            <remote-alias>Prairie Region</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[hpi_by_region.csv_E9899F3D5F2043BBA3BD02EB0845218E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Manitoba</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Manitoba]</local-name>
+            <parent-name>[hpi_by_region.csv]</parent-name>
+            <remote-alias>Manitoba</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[hpi_by_region.csv_E9899F3D5F2043BBA3BD02EB0845218E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Saskatchewan</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Saskatchewan]</local-name>
+            <parent-name>[hpi_by_region.csv]</parent-name>
+            <remote-alias>Saskatchewan</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[hpi_by_region.csv_E9899F3D5F2043BBA3BD02EB0845218E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Alberta</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Alberta]</local-name>
+            <parent-name>[hpi_by_region.csv]</parent-name>
+            <remote-alias>Alberta</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[hpi_by_region.csv_E9899F3D5F2043BBA3BD02EB0845218E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>British Columbia </remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[British Columbia ]</local-name>
+            <parent-name>[hpi_by_region.csv]</parent-name>
+            <remote-alias>British Columbia </remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[hpi_by_region.csv_E9899F3D5F2043BBA3BD02EB0845218E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Kelowna, British Columbia</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Kelowna, British Columbia]</local-name>
+            <parent-name>[hpi_by_region.csv]</parent-name>
+            <remote-alias>Kelowna, British Columbia</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[hpi_by_region.csv_E9899F3D5F2043BBA3BD02EB0845218E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Vancouver, British Columbia</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Vancouver, British Columbia]</local-name>
+            <parent-name>[hpi_by_region.csv]</parent-name>
+            <remote-alias>Vancouver, British Columbia</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[hpi_by_region.csv_E9899F3D5F2043BBA3BD02EB0845218E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Victoria, British Columbia</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Victoria, British Columbia]</local-name>
+            <parent-name>[hpi_by_region.csv]</parent-name>
+            <remote-alias>Victoria, British Columbia</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[hpi_by_region.csv_E9899F3D5F2043BBA3BD02EB0845218E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Month-Year</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Month-Year]</local-name>
+            <parent-name>[hpi_by_region.csv]</parent-name>
+            <remote-alias>Month-Year</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[hpi_by_region.csv_E9899F3D5F2043BBA3BD02EB0845218E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[year]</local-name>
+            <parent-name>[hpi_by_region.csv]</parent-name>
+            <remote-alias>year</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[hpi_by_region.csv_E9899F3D5F2043BBA3BD02EB0845218E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>month</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[month]</local-name>
+            <parent-name>[hpi_by_region.csv]</parent-name>
+            <remote-alias>month</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[hpi_by_region.csv_E9899F3D5F2043BBA3BD02EB0845218E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='British Columbia' datatype='real' name='[British Columbia ]' role='measure' type='quantitative' />
+      <column caption='Ontario' datatype='real' name='[Ontario ]' role='measure' type='quantitative' />
+      <column caption='Oshawa, Ontario' datatype='real' name='[Oshawa, Ontario ]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='hpi_by_region.csv' datatype='table' name='[__tableau_internal_object_id__].[hpi_by_region.csv_E9899F3D5F2043BBA3BD02EB0845218E]' role='measure' type='quantitative' />
+      <column caption='Month' datatype='integer' name='[month]' role='dimension' type='quantitative' />
+      <column caption='Year' datatype='integer' name='[year]' role='dimension' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='hpi_by_region.csv' id='hpi_by_region.csv_E9899F3D5F2043BBA3BD02EB0845218E'>
+            <properties context=''>
+              <relation connection='textscan.0xmztz11yt8on81b6xt0l0fxlsk2' name='hpi_by_region.csv' table='[hpi_by_region#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='string' name='Type' ordinal='1' />
+                  <column datatype='string' name='Month-year' ordinal='2' />
+                  <column datatype='real' name='Canada' ordinal='3' />
+                  <column datatype='real' name='Atlantic Region' ordinal='4' />
+                  <column datatype='real' name='Newfoundland and Labrador' ordinal='5' />
+                  <column datatype='real' name='Prince Edward Island' ordinal='6' />
+                  <column datatype='real' name='Nova Scotia' ordinal='7' />
+                  <column datatype='real' name='New Brunswick' ordinal='8' />
+                  <column datatype='real' name='Quebec' ordinal='9' />
+                  <column datatype='real' name='Quebec City, Quebec' ordinal='10' />
+                  <column datatype='real' name='Sherbrooke, Quebec' ordinal='11' />
+                  <column datatype='real' name='Trois-Rivieres, Quebec' ordinal='12' />
+                  <column datatype='real' name='Montreal, Quebec' ordinal='13' />
+                  <column datatype='real' name='Ottawa-Gatineau, Quebec part' ordinal='14' />
+                  <column datatype='real' name='Ontario ' ordinal='15' />
+                  <column datatype='real' name='Ottawa-Gatineau, Ontario part' ordinal='16' />
+                  <column datatype='real' name='Oshawa, Ontario ' ordinal='17' />
+                  <column datatype='real' name='Toronto, Ontario' ordinal='18' />
+                  <column datatype='real' name='Hamilton, Ontario' ordinal='19' />
+                  <column datatype='real' name='St. Catharines-Niagara, Ontario' ordinal='20' />
+                  <column datatype='real' name='Kitchener-Cambridge-Waterloo, Ontario' ordinal='21' />
+                  <column datatype='real' name='Guelph, Ontario' ordinal='22' />
+                  <column datatype='real' name='London, Ontario' ordinal='23' />
+                  <column datatype='real' name='Windsor, Ontario' ordinal='24' />
+                  <column datatype='real' name='Greater Sudbury, Ontario 12' ordinal='25' />
+                  <column datatype='real' name='Prairie Region' ordinal='26' />
+                  <column datatype='real' name='Manitoba' ordinal='27' />
+                  <column datatype='real' name='Saskatchewan' ordinal='28' />
+                  <column datatype='real' name='Alberta' ordinal='29' />
+                  <column datatype='real' name='British Columbia ' ordinal='30' />
+                  <column datatype='real' name='Kelowna, British Columbia' ordinal='31' />
+                  <column datatype='real' name='Vancouver, British Columbia' ordinal='32' />
+                  <column datatype='real' name='Victoria, British Columbia' ordinal='33' />
+                  <column datatype='date' name='Month-Year' ordinal='34' />
+                  <column datatype='integer' name='year' ordinal='35' />
+                  <column datatype='integer' name='month' ordinal='36' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='population-by-region-1946-2022 (1)' inline='true' name='federated.1w8226d0b85wjg10tp1q10je8vqg' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='population-by-region-1946-2022 (1)' name='textscan.11y60591gk8ywi1e72uta0kmou9i'>
+            <connection class='textscan' directory='/Users/kristina/Desktop/2022-2023W/COSC301/group_project/group13/data/raw' filename='population-by-region-1946-2022 (1).csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.11y60591gk8ywi1e72uta0kmou9i' name='population-by-region-1946-2022 (1).csv' table='[population-by-region-1946-2022 (1)#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='string' name='REF_DATE' ordinal='0' />
+            <column datatype='string' name='GEO' ordinal='1' />
+            <column datatype='string' name='DGUID' ordinal='2' />
+            <column datatype='string' name='VECTOR' ordinal='3' />
+            <column datatype='integer' name='COORDINATE' ordinal='4' />
+            <column datatype='integer' name='Population estimate' ordinal='5' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.11y60591gk8ywi1e72uta0kmou9i' name='population-by-region-1946-2022 (1).csv' table='[population-by-region-1946-2022 (1)#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='string' name='REF_DATE' ordinal='0' />
+            <column datatype='string' name='GEO' ordinal='1' />
+            <column datatype='string' name='DGUID' ordinal='2' />
+            <column datatype='string' name='VECTOR' ordinal='3' />
+            <column datatype='integer' name='COORDINATE' ordinal='4' />
+            <column datatype='integer' name='Population estimate' ordinal='5' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[population-by-region-1946-2022 (1).csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_CA&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>REF_DATE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[REF_DATE]</local-name>
+            <parent-name>[population-by-region-1946-2022 (1).csv]</parent-name>
+            <remote-alias>REF_DATE</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[population-by-region-1946-2022 (1).csv_D8019F1B028E478CAD1CBCCD95481FE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GEO</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[GEO]</local-name>
+            <parent-name>[population-by-region-1946-2022 (1).csv]</parent-name>
+            <remote-alias>GEO</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[population-by-region-1946-2022 (1).csv_D8019F1B028E478CAD1CBCCD95481FE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DGUID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[DGUID]</local-name>
+            <parent-name>[population-by-region-1946-2022 (1).csv]</parent-name>
+            <remote-alias>DGUID</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[population-by-region-1946-2022 (1).csv_D8019F1B028E478CAD1CBCCD95481FE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>VECTOR</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[VECTOR]</local-name>
+            <parent-name>[population-by-region-1946-2022 (1).csv]</parent-name>
+            <remote-alias>VECTOR</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[population-by-region-1946-2022 (1).csv_D8019F1B028E478CAD1CBCCD95481FE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>COORDINATE</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[COORDINATE]</local-name>
+            <parent-name>[population-by-region-1946-2022 (1).csv]</parent-name>
+            <remote-alias>COORDINATE</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[population-by-region-1946-2022 (1).csv_D8019F1B028E478CAD1CBCCD95481FE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population estimate</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Population estimate]</local-name>
+            <parent-name>[population-by-region-1946-2022 (1).csv]</parent-name>
+            <remote-alias>Population estimate</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[population-by-region-1946-2022 (1).csv_D8019F1B028E478CAD1CBCCD95481FE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Coordinate' datatype='integer' name='[COORDINATE]' role='measure' type='quantitative' />
+      <column caption='Dguid' datatype='string' name='[DGUID]' role='dimension' type='nominal' />
+      <column datatype='string' name='[GEO]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Population estimate]' role='measure' type='quantitative' />
+      <column caption='Year' datatype='string' name='[REF_DATE]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;Apr-00&quot;' value='2000' />
+          <alias key='&quot;Apr-01&quot;' value='2001' />
+          <alias key='&quot;Apr-02&quot;' value='2002' />
+          <alias key='&quot;Apr-03&quot;' value='2003' />
+          <alias key='&quot;Apr-04&quot;' value='2004' />
+          <alias key='&quot;Apr-05&quot;' value='2005' />
+          <alias key='&quot;Apr-06&quot;' value='2006' />
+          <alias key='&quot;Apr-07&quot;' value='2007' />
+          <alias key='&quot;Apr-08&quot;' value='2008' />
+          <alias key='&quot;Apr-09&quot;' value='2009' />
+          <alias key='&quot;Apr-10&quot;' value='2010' />
+          <alias key='&quot;Apr-11&quot;' value='2011' />
+          <alias key='&quot;Apr-12&quot;' value='2012' />
+          <alias key='&quot;Apr-13&quot;' value='2013' />
+          <alias key='&quot;Apr-14&quot;' value='2014' />
+          <alias key='&quot;Apr-15&quot;' value='2015' />
+          <alias key='&quot;Apr-16&quot;' value='2016' />
+          <alias key='&quot;Apr-17&quot;' value='2017' />
+          <alias key='&quot;Apr-18&quot;' value='2018' />
+          <alias key='&quot;Apr-19&quot;' value='2019' />
+          <alias key='&quot;Apr-20&quot;' value='2020' />
+          <alias key='&quot;Apr-21&quot;' value='2021' />
+          <alias key='&quot;Apr-22&quot;' value='2022' />
+        </aliases>
+      </column>
+      <column caption='Vector' datatype='string' name='[VECTOR]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='population-by-region-1946-2022 (1).csv' datatype='table' name='[__tableau_internal_object_id__].[population-by-region-1946-2022 (1).csv_D8019F1B028E478CAD1CBCCD95481FE8]' role='measure' type='quantitative' />
+      <column-instance column='[__tableau_internal_object_id__].[population-by-region-1946-2022 (1).csv_D8019F1B028E478CAD1CBCCD95481FE8]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:population-by-region-1946-2022 (1).csv_D8019F1B028E478CAD1CBCCD95481FE8:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Population estimate]' derivation='Avg' name='[avg:Population estimate:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[GEO]' derivation='None' name='[none:GEO:nk]' pivot='key' type='nominal' />
+      <column-instance column='[REF_DATE]' derivation='None' name='[none:REF_DATE:nk]' pivot='key' type='nominal' />
+      <column-instance column='[COORDINATE]' derivation='Sum' name='[sum:COORDINATE:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Population estimate]' derivation='Sum' name='[sum:Population estimate:qk]' pivot='key' type='quantitative' />
+      <group caption='Action (Year)' hidden='true' name='[Action (Year)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[REF_DATE]' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='shape' field='[:Measure Names]' type='shape'>
+            <map to='circle'>
+              <bucket>&quot;[federated.1w8226d0b85wjg10tp1q10je8vqg].[sum:COORDINATE:qk]&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;[federated.1w8226d0b85wjg10tp1q10je8vqg].[avg:Population estimate:qk]&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;[federated.1w8226d0b85wjg10tp1q10je8vqg].[sum:Population estimate:qk]&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;[federated.1w8226d0b85wjg10tp1q10je8vqg].[__tableau_internal_object_id__].[cnt:population-by-region-1946-2022 (1).csv_D8019F1B028E478CAD1CBCCD95481FE8:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:GEO:nk]' palette='cyclic_10_0' type='palette'>
+            <map to='#1ba3c6'>
+              <bucket>&quot;Alberta&quot;</bucket>
+            </map>
+            <map to='#1fae81'>
+              <bucket>&quot;Manitoba&quot;</bucket>
+            </map>
+            <map to='#37c1bd'>
+              <bucket>&quot;British Columbia&quot;</bucket>
+            </map>
+            <map to='#459f3b'>
+              <bucket>&quot;New Brunswick&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>%many-values%</bucket>
+            </map>
+            <map to='#4f7cba'>
+              <bucket>&quot;Yukon&quot;</bucket>
+            </map>
+            <map to='#906fc4'>
+              <bucket>&quot;Saskatchewan&quot;</bucket>
+            </map>
+            <map to='#bcbd22'>
+              <bucket>&quot;Newfoundland and Labrador&quot;</bucket>
+            </map>
+            <map to='#d669be'>
+              <bucket>&quot;Quebec&quot;</bucket>
+            </map>
+            <map to='#df3028'>
+              <bucket>&quot;Nunavut&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Northwest Territories including Nunavut&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Canada&quot;</bucket>
+            </map>
+            <map to='#f43c63'>
+              <bucket>&quot;Ontario&quot;</bucket>
+            </map>
+            <map to='#f88113'>
+              <bucket>&quot;Nova Scotia&quot;</bucket>
+            </map>
+            <map to='#f8b921'>
+              <bucket>&quot;Northwest Territories&quot;</bucket>
+            </map>
+            <map to='#fe7caa'>
+              <bucket>&quot;Prince Edward Island&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:REF_DATE:nk]' palette='red_gold_10_0' type='palette'>
+            <map to='#b71d3e'>
+              <bucket>&quot;Apr-22&quot;</bucket>
+            </map>
+            <map to='#b71d3e'>
+              <bucket>&quot;Oct-21&quot;</bucket>
+            </map>
+            <map to='#b81f3e'>
+              <bucket>&quot;Oct-20&quot;</bucket>
+            </map>
+            <map to='#ba223e'>
+              <bucket>&quot;Oct-19&quot;</bucket>
+            </map>
+            <map to='#bb243f'>
+              <bucket>&quot;Oct-18&quot;</bucket>
+            </map>
+            <map to='#bc263f'>
+              <bucket>&quot;Apr-21&quot;</bucket>
+            </map>
+            <map to='#bd273f'>
+              <bucket>&quot;Oct-17&quot;</bucket>
+            </map>
+            <map to='#bf293f'>
+              <bucket>&quot;Oct-16&quot;</bucket>
+            </map>
+            <map to='#c02c40'>
+              <bucket>&quot;Oct-15&quot;</bucket>
+            </map>
+            <map to='#c22e40'>
+              <bucket>&quot;Oct-14&quot;</bucket>
+            </map>
+            <map to='#c22f40'>
+              <bucket>&quot;Apr-20&quot;</bucket>
+            </map>
+            <map to='#c43141'>
+              <bucket>&quot;Oct-13&quot;</bucket>
+            </map>
+            <map to='#c53341'>
+              <bucket>&quot;Oct-12&quot;</bucket>
+            </map>
+            <map to='#c63541'>
+              <bucket>&quot;Oct-11&quot;</bucket>
+            </map>
+            <map to='#c83742'>
+              <bucket>&quot;Apr-19&quot;</bucket>
+            </map>
+            <map to='#c83742'>
+              <bucket>&quot;Oct-10&quot;</bucket>
+            </map>
+            <map to='#c93942'>
+              <bucket>&quot;Oct-09&quot;</bucket>
+            </map>
+            <map to='#cb3b42'>
+              <bucket>&quot;Oct-08&quot;</bucket>
+            </map>
+            <map to='#cc3e43'>
+              <bucket>&quot;Oct-07&quot;</bucket>
+            </map>
+            <map to='#cd3e43'>
+              <bucket>&quot;Apr-18&quot;</bucket>
+            </map>
+            <map to='#cd4043'>
+              <bucket>&quot;Oct-06&quot;</bucket>
+            </map>
+            <map to='#cf4244'>
+              <bucket>&quot;Oct-05&quot;</bucket>
+            </map>
+            <map to='#d04444'>
+              <bucket>&quot;Oct-04&quot;</bucket>
+            </map>
+            <map to='#d24644'>
+              <bucket>&quot;Apr-17&quot;</bucket>
+            </map>
+            <map to='#d24644'>
+              <bucket>&quot;Oct-03&quot;</bucket>
+            </map>
+            <map to='#d34845'>
+              <bucket>&quot;Oct-02&quot;</bucket>
+            </map>
+            <map to='#d54a45'>
+              <bucket>&quot;Oct-01&quot;</bucket>
+            </map>
+            <map to='#d64c45'>
+              <bucket>&quot;Oct-00&quot;</bucket>
+            </map>
+            <map to='#d74d46'>
+              <bucket>&quot;Apr-16&quot;</bucket>
+            </map>
+            <map to='#d84e46'>
+              <bucket>&quot;Jul-21&quot;</bucket>
+            </map>
+            <map to='#d95046'>
+              <bucket>&quot;Jul-20&quot;</bucket>
+            </map>
+            <map to='#db5247'>
+              <bucket>&quot;Jul-19&quot;</bucket>
+            </map>
+            <map to='#dc5447'>
+              <bucket>&quot;Apr-15&quot;</bucket>
+            </map>
+            <map to='#dc5447'>
+              <bucket>&quot;Jul-18&quot;</bucket>
+            </map>
+            <map to='#dd5647'>
+              <bucket>&quot;Jul-17&quot;</bucket>
+            </map>
+            <map to='#df5847'>
+              <bucket>&quot;Jul-16&quot;</bucket>
+            </map>
+            <map to='#e05a48'>
+              <bucket>&quot;Jul-15&quot;</bucket>
+            </map>
+            <map to='#e15c48'>
+              <bucket>&quot;Apr-14&quot;</bucket>
+            </map>
+            <map to='#e15c48'>
+              <bucket>&quot;Jul-14&quot;</bucket>
+            </map>
+            <map to='#e25e48'>
+              <bucket>&quot;Jul-13&quot;</bucket>
+            </map>
+            <map to='#e46048'>
+              <bucket>&quot;Jul-12&quot;</bucket>
+            </map>
+            <map to='#e56249'>
+              <bucket>&quot;Jul-11&quot;</bucket>
+            </map>
+            <map to='#e56349'>
+              <bucket>&quot;Apr-13&quot;</bucket>
+            </map>
+            <map to='#e66549'>
+              <bucket>&quot;Jul-10&quot;</bucket>
+            </map>
+            <map to='#e76749'>
+              <bucket>&quot;Jul-09&quot;</bucket>
+            </map>
+            <map to='#e86949'>
+              <bucket>&quot;Jul-08&quot;</bucket>
+            </map>
+            <map to='#e96b49'>
+              <bucket>&quot;Apr-12&quot;</bucket>
+            </map>
+            <map to='#ea6b49'>
+              <bucket>&quot;Jul-07&quot;</bucket>
+            </map>
+            <map to='#eb6d49'>
+              <bucket>&quot;Jul-06&quot;</bucket>
+            </map>
+            <map to='#ec6f49'>
+              <bucket>&quot;Jul-05&quot;</bucket>
+            </map>
+            <map to='#ed7149'>
+              <bucket>&quot;Jul-04&quot;</bucket>
+            </map>
+            <map to='#ee734a'>
+              <bucket>&quot;Apr-11&quot;</bucket>
+            </map>
+            <map to='#ee744a'>
+              <bucket>&quot;Jul-03&quot;</bucket>
+            </map>
+            <map to='#ef764a'>
+              <bucket>&quot;Jul-02&quot;</bucket>
+            </map>
+            <map to='#f0784a'>
+              <bucket>&quot;Jul-01&quot;</bucket>
+            </map>
+            <map to='#f17a4a'>
+              <bucket>&quot;Apr-10&quot;</bucket>
+            </map>
+            <map to='#f17a4a'>
+              <bucket>&quot;Jul-00&quot;</bucket>
+            </map>
+            <map to='#f27c4a'>
+              <bucket>&quot;Jan-22&quot;</bucket>
+            </map>
+            <map to='#f37e4a'>
+              <bucket>&quot;Jan-21&quot;</bucket>
+            </map>
+            <map to='#f4804a'>
+              <bucket>&quot;Jan-20&quot;</bucket>
+            </map>
+            <map to='#f4c860'>
+              <bucket>&quot;Apr-01&quot;</bucket>
+            </map>
+            <map to='#f4d166'>
+              <bucket>&quot;Apr-00&quot;</bucket>
+            </map>
+            <map to='#f5814a'>
+              <bucket>&quot;Apr-09&quot;</bucket>
+            </map>
+            <map to='#f5824a'>
+              <bucket>&quot;Jan-19&quot;</bucket>
+            </map>
+            <map to='#f5bf5a'>
+              <bucket>&quot;Apr-02&quot;</bucket>
+            </map>
+            <map to='#f6844b'>
+              <bucket>&quot;Jan-18&quot;</bucket>
+            </map>
+            <map to='#f7864b'>
+              <bucket>&quot;Jan-17&quot;</bucket>
+            </map>
+            <map to='#f7894b'>
+              <bucket>&quot;Jan-16&quot;</bucket>
+            </map>
+            <map to='#f7b656'>
+              <bucket>&quot;Apr-03&quot;</bucket>
+            </map>
+            <map to='#f8894c'>
+              <bucket>&quot;Apr-08&quot;</bucket>
+            </map>
+            <map to='#f88b4c'>
+              <bucket>&quot;Jan-15&quot;</bucket>
+            </map>
+            <map to='#f8ac51'>
+              <bucket>&quot;Jan-02&quot;</bucket>
+            </map>
+            <map to='#f8ad52'>
+              <bucket>&quot;Apr-04&quot;</bucket>
+            </map>
+            <map to='#f8ae52'>
+              <bucket>&quot;Jan-01&quot;</bucket>
+            </map>
+            <map to='#f98e4c'>
+              <bucket>&quot;Jan-14&quot;</bucket>
+            </map>
+            <map to='#f9a450'>
+              <bucket>&quot;Apr-05&quot;</bucket>
+            </map>
+            <map to='#f9a450'>
+              <bucket>&quot;Jan-05&quot;</bucket>
+            </map>
+            <map to='#f9a650'>
+              <bucket>&quot;Jan-04&quot;</bucket>
+            </map>
+            <map to='#f9a950'>
+              <bucket>&quot;Jan-03&quot;</bucket>
+            </map>
+            <map to='#fa904d'>
+              <bucket>&quot;Jan-13&quot;</bucket>
+            </map>
+            <map to='#fa924d'>
+              <bucket>&quot;Apr-07&quot;</bucket>
+            </map>
+            <map to='#fa9c4f'>
+              <bucket>&quot;Jan-08&quot;</bucket>
+            </map>
+            <map to='#fa9f4f'>
+              <bucket>&quot;Jan-07&quot;</bucket>
+            </map>
+            <map to='#faa14f'>
+              <bucket>&quot;Jan-06&quot;</bucket>
+            </map>
+            <map to='#fb924d'>
+              <bucket>&quot;Jan-12&quot;</bucket>
+            </map>
+            <map to='#fb954d'>
+              <bucket>&quot;Jan-11&quot;</bucket>
+            </map>
+            <map to='#fb974e'>
+              <bucket>&quot;Jan-10&quot;</bucket>
+            </map>
+            <map to='#fb9a4e'>
+              <bucket>&quot;Jan-09&quot;</bucket>
+            </map>
+            <map to='#fb9b4e'>
+              <bucket>&quot;Apr-06&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='population-by-region-1946-2022 (1).csv' id='population-by-region-1946-2022 (1).csv_D8019F1B028E478CAD1CBCCD95481FE8'>
+            <properties context=''>
+              <relation connection='textscan.11y60591gk8ywi1e72uta0kmou9i' name='population-by-region-1946-2022 (1).csv' table='[population-by-region-1946-2022 (1)#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                  <column datatype='string' name='REF_DATE' ordinal='0' />
+                  <column datatype='string' name='GEO' ordinal='1' />
+                  <column datatype='string' name='DGUID' ordinal='2' />
+                  <column datatype='string' name='VECTOR' ordinal='3' />
+                  <column datatype='integer' name='COORDINATE' ordinal='4' />
+                  <column datatype='integer' name='Population estimate' ordinal='5' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='BC Population'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>British Columbia Population over the Years</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='population-by-region-1946-2022 (1)' name='federated.1w8226d0b85wjg10tp1q10je8vqg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1w8226d0b85wjg10tp1q10je8vqg'>
+            <column datatype='string' name='[GEO]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Population estimate]' role='measure' type='quantitative' />
+            <column caption='Year' datatype='string' name='[REF_DATE]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Apr-00&quot;' value='2000' />
+                <alias key='&quot;Apr-01&quot;' value='2001' />
+                <alias key='&quot;Apr-02&quot;' value='2002' />
+                <alias key='&quot;Apr-03&quot;' value='2003' />
+                <alias key='&quot;Apr-04&quot;' value='2004' />
+                <alias key='&quot;Apr-05&quot;' value='2005' />
+                <alias key='&quot;Apr-06&quot;' value='2006' />
+                <alias key='&quot;Apr-07&quot;' value='2007' />
+                <alias key='&quot;Apr-08&quot;' value='2008' />
+                <alias key='&quot;Apr-09&quot;' value='2009' />
+                <alias key='&quot;Apr-10&quot;' value='2010' />
+                <alias key='&quot;Apr-11&quot;' value='2011' />
+                <alias key='&quot;Apr-12&quot;' value='2012' />
+                <alias key='&quot;Apr-13&quot;' value='2013' />
+                <alias key='&quot;Apr-14&quot;' value='2014' />
+                <alias key='&quot;Apr-15&quot;' value='2015' />
+                <alias key='&quot;Apr-16&quot;' value='2016' />
+                <alias key='&quot;Apr-17&quot;' value='2017' />
+                <alias key='&quot;Apr-18&quot;' value='2018' />
+                <alias key='&quot;Apr-19&quot;' value='2019' />
+                <alias key='&quot;Apr-20&quot;' value='2020' />
+                <alias key='&quot;Apr-21&quot;' value='2021' />
+                <alias key='&quot;Apr-22&quot;' value='2022' />
+              </aliases>
+            </column>
+            <column-instance column='[GEO]' derivation='None' name='[none:GEO:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Population estimate]' derivation='None' name='[none:Population estimate:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[REF_DATE]' derivation='None' name='[none:REF_DATE:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Population estimate]' derivation='Sum' name='[sum:Population estimate:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1w8226d0b85wjg10tp1q10je8vqg].[none:GEO:nk]'>
+            <groupfilter function='member' level='[none:GEO:nk]' member='&quot;British Columbia&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='quantitative' column='[federated.1w8226d0b85wjg10tp1q10je8vqg].[none:Population estimate:qk]' included-values='in-range'>
+            <min>4033319</min>
+            <max>5286528</max>
+          </filter>
+          <filter class='categorical' column='[federated.1w8226d0b85wjg10tp1q10je8vqg].[none:REF_DATE:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:REF_DATE:nk]' member='&quot;Apr-02&quot;' />
+              <groupfilter function='member' level='[none:REF_DATE:nk]' member='&quot;Apr-03&quot;' />
+              <groupfilter function='member' level='[none:REF_DATE:nk]' member='&quot;Apr-04&quot;' />
+              <groupfilter function='member' level='[none:REF_DATE:nk]' member='&quot;Apr-05&quot;' />
+              <groupfilter function='member' level='[none:REF_DATE:nk]' member='&quot;Apr-06&quot;' />
+              <groupfilter function='member' level='[none:REF_DATE:nk]' member='&quot;Apr-07&quot;' />
+              <groupfilter function='member' level='[none:REF_DATE:nk]' member='&quot;Apr-08&quot;' />
+              <groupfilter function='member' level='[none:REF_DATE:nk]' member='&quot;Apr-09&quot;' />
+              <groupfilter function='member' level='[none:REF_DATE:nk]' member='&quot;Apr-10&quot;' />
+              <groupfilter function='member' level='[none:REF_DATE:nk]' member='&quot;Apr-11&quot;' />
+              <groupfilter function='member' level='[none:REF_DATE:nk]' member='&quot;Apr-12&quot;' />
+              <groupfilter function='member' level='[none:REF_DATE:nk]' member='&quot;Apr-13&quot;' />
+              <groupfilter function='member' level='[none:REF_DATE:nk]' member='&quot;Apr-14&quot;' />
+              <groupfilter function='member' level='[none:REF_DATE:nk]' member='&quot;Apr-15&quot;' />
+              <groupfilter function='member' level='[none:REF_DATE:nk]' member='&quot;Apr-16&quot;' />
+              <groupfilter function='member' level='[none:REF_DATE:nk]' member='&quot;Apr-17&quot;' />
+              <groupfilter function='member' level='[none:REF_DATE:nk]' member='&quot;Apr-18&quot;' />
+              <groupfilter function='member' level='[none:REF_DATE:nk]' member='&quot;Apr-19&quot;' />
+              <groupfilter function='member' level='[none:REF_DATE:nk]' member='&quot;Apr-20&quot;' />
+              <groupfilter function='member' level='[none:REF_DATE:nk]' member='&quot;Apr-21&quot;' />
+              <groupfilter function='member' level='[none:REF_DATE:nk]' member='&quot;Apr-22&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1w8226d0b85wjg10tp1q10je8vqg].[none:REF_DATE:nk]' kind='hide'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:REF_DATE:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:REF_DATE:nk]' member='&quot;Apr-03&quot;' />
+                <groupfilter function='member' level='[none:REF_DATE:nk]' member='&quot;Apr-05&quot;' />
+                <groupfilter function='member' level='[none:REF_DATE:nk]' member='&quot;Apr-07&quot;' />
+                <groupfilter function='member' level='[none:REF_DATE:nk]' member='&quot;Apr-09&quot;' />
+                <groupfilter function='member' level='[none:REF_DATE:nk]' member='&quot;Apr-11&quot;' />
+                <groupfilter function='member' level='[none:REF_DATE:nk]' member='&quot;Apr-13&quot;' />
+                <groupfilter function='member' level='[none:REF_DATE:nk]' member='&quot;Apr-15&quot;' />
+                <groupfilter function='member' level='[none:REF_DATE:nk]' member='&quot;Apr-17&quot;' />
+                <groupfilter function='member' level='[none:REF_DATE:nk]' member='&quot;Apr-19&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <natural-sort column='[federated.1w8226d0b85wjg10tp1q10je8vqg].[none:REF_DATE:nk]' direction='ASC' />
+          <slices>
+            <column>[federated.1w8226d0b85wjg10tp1q10je8vqg].[none:REF_DATE:nk]</column>
+            <column>[federated.1w8226d0b85wjg10tp1q10je8vqg].[none:GEO:nk]</column>
+            <column>[federated.1w8226d0b85wjg10tp1q10je8vqg].[none:Population estimate:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' domain-expand='false' field='[federated.1w8226d0b85wjg10tp1q10je8vqg].[sum:Population estimate:qk]' field-type='quantitative' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-orientation' field='[federated.1w8226d0b85wjg10tp1q10je8vqg].[none:REF_DATE:nk]' value='0' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.1w8226d0b85wjg10tp1q10je8vqg].[none:REF_DATE:nk]' />
+              <text column='[federated.1w8226d0b85wjg10tp1q10je8vqg].[sum:Population estimate:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='user' />
+                <format attr='font-size' value='8' />
+                <format attr='color' value='#818b91' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1w8226d0b85wjg10tp1q10je8vqg].[sum:Population estimate:qk]</rows>
+        <cols>[federated.1w8226d0b85wjg10tp1q10je8vqg].[none:REF_DATE:nk]</cols>
+      </table>
+      <simple-id uuid='{C4043F03-C7DE-4355-96AB-B673803B732D}' />
+    </worksheet>
+    <worksheet name='HIP'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Change in British Columbia (HPI) over the years</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='hpi_by_region.csv (Multiple Connections)' name='federated.13vmq7804pcngk18oj9ee1evshbi' />
+          </datasources>
+          <datasource-dependencies datasource='federated.13vmq7804pcngk18oj9ee1evshbi'>
+            <column caption='British Columbia' datatype='real' name='[British Columbia ]' role='measure' type='quantitative' />
+            <column-instance column='[British Columbia ]' derivation='None' name='[none:British Columbia :qk]' pivot='key' type='quantitative' />
+            <column-instance column='[year]' derivation='None' name='[none:year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[British Columbia ]' derivation='Sum' name='[sum:British Columbia :qk]' pivot='key' type='quantitative' />
+            <column caption='Year' datatype='integer' name='[year]' role='dimension' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.13vmq7804pcngk18oj9ee1evshbi].[none:British Columbia :qk]' included-values='non-null' />
+          <filter class='quantitative' column='[federated.13vmq7804pcngk18oj9ee1evshbi].[none:year:qk]' included-values='in-range'>
+            <min>2003</min>
+            <max>2021</max>
+          </filter>
+          <slices>
+            <column>[federated.13vmq7804pcngk18oj9ee1evshbi].[none:year:qk]</column>
+            <column>[federated.13vmq7804pcngk18oj9ee1evshbi].[none:British Columbia :qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.13vmq7804pcngk18oj9ee1evshbi].[sum:British Columbia :qk]' scope='rows' value='House Price Index' />
+            <encoding attr='space' class='0' domain-expand='false' field='[federated.13vmq7804pcngk18oj9ee1evshbi].[sum:British Columbia :qk]' field-type='quantitative' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.13vmq7804pcngk18oj9ee1evshbi].[sum:British Columbia :qk]' palette='red_green_gold_diverging_10_0' reverse='true' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='12' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.13vmq7804pcngk18oj9ee1evshbi].[sum:British Columbia :qk]' />
+              <lod column='[federated.13vmq7804pcngk18oj9ee1evshbi].[sum:British Columbia :qk]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-size' value='8' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='size' value='1.087458610534668' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.13vmq7804pcngk18oj9ee1evshbi].[sum:British Columbia :qk]</rows>
+        <cols>[federated.13vmq7804pcngk18oj9ee1evshbi].[none:year:qk]</cols>
+      </table>
+      <simple-id uuid='{7D15AA8D-F95B-4699-90AF-C8EDEBFDA8E2}' />
+    </worksheet>
+    <worksheet name='Population by Region 2000'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Population by Region in 2000</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='population-by-region-1946-2022 (1)' name='federated.1w8226d0b85wjg10tp1q10je8vqg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1w8226d0b85wjg10tp1q10je8vqg'>
+            <column datatype='string' name='[GEO]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Population estimate]' role='measure' type='quantitative' />
+            <column caption='Year' datatype='string' name='[REF_DATE]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Apr-00&quot;' value='2000' />
+                <alias key='&quot;Apr-01&quot;' value='2001' />
+                <alias key='&quot;Apr-02&quot;' value='2002' />
+                <alias key='&quot;Apr-03&quot;' value='2003' />
+                <alias key='&quot;Apr-04&quot;' value='2004' />
+                <alias key='&quot;Apr-05&quot;' value='2005' />
+                <alias key='&quot;Apr-06&quot;' value='2006' />
+                <alias key='&quot;Apr-07&quot;' value='2007' />
+                <alias key='&quot;Apr-08&quot;' value='2008' />
+                <alias key='&quot;Apr-09&quot;' value='2009' />
+                <alias key='&quot;Apr-10&quot;' value='2010' />
+                <alias key='&quot;Apr-11&quot;' value='2011' />
+                <alias key='&quot;Apr-12&quot;' value='2012' />
+                <alias key='&quot;Apr-13&quot;' value='2013' />
+                <alias key='&quot;Apr-14&quot;' value='2014' />
+                <alias key='&quot;Apr-15&quot;' value='2015' />
+                <alias key='&quot;Apr-16&quot;' value='2016' />
+                <alias key='&quot;Apr-17&quot;' value='2017' />
+                <alias key='&quot;Apr-18&quot;' value='2018' />
+                <alias key='&quot;Apr-19&quot;' value='2019' />
+                <alias key='&quot;Apr-20&quot;' value='2020' />
+                <alias key='&quot;Apr-21&quot;' value='2021' />
+                <alias key='&quot;Apr-22&quot;' value='2022' />
+              </aliases>
+            </column>
+            <column-instance column='[Population estimate]' derivation='Avg' name='[avg:Population estimate:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[GEO]' derivation='None' name='[none:GEO:nk]' pivot='key' type='nominal' />
+            <column-instance column='[REF_DATE]' derivation='None' name='[none:REF_DATE:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1w8226d0b85wjg10tp1q10je8vqg].[none:GEO:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:GEO:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:GEO:nk]' member='&quot;Canada&quot;' />
+                <groupfilter function='member' level='[none:GEO:nk]' member='%null%' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1w8226d0b85wjg10tp1q10je8vqg].[none:REF_DATE:nk]'>
+            <groupfilter function='member' level='[none:REF_DATE:nk]' member='&quot;Apr-00&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1w8226d0b85wjg10tp1q10je8vqg].[none:GEO:nk]</column>
+            <column>[federated.1w8226d0b85wjg10tp1q10je8vqg].[none:REF_DATE:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1w8226d0b85wjg10tp1q10je8vqg].[none:GEO:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-size' value='8' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1w8226d0b85wjg10tp1q10je8vqg].[none:GEO:nk]</rows>
+        <cols>[federated.1w8226d0b85wjg10tp1q10je8vqg].[avg:Population estimate:qk]</cols>
+      </table>
+      <simple-id uuid='{C248865A-FCF7-4154-A71C-A047E8193AF5}' />
+    </worksheet>
+    <worksheet name='Population by Region 2022'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Population by Region in 2022</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='population-by-region-1946-2022 (1)' name='federated.1w8226d0b85wjg10tp1q10je8vqg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1w8226d0b85wjg10tp1q10je8vqg'>
+            <column datatype='string' name='[GEO]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Population estimate]' role='measure' type='quantitative' />
+            <column caption='Year' datatype='string' name='[REF_DATE]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Apr-00&quot;' value='2000' />
+                <alias key='&quot;Apr-01&quot;' value='2001' />
+                <alias key='&quot;Apr-02&quot;' value='2002' />
+                <alias key='&quot;Apr-03&quot;' value='2003' />
+                <alias key='&quot;Apr-04&quot;' value='2004' />
+                <alias key='&quot;Apr-05&quot;' value='2005' />
+                <alias key='&quot;Apr-06&quot;' value='2006' />
+                <alias key='&quot;Apr-07&quot;' value='2007' />
+                <alias key='&quot;Apr-08&quot;' value='2008' />
+                <alias key='&quot;Apr-09&quot;' value='2009' />
+                <alias key='&quot;Apr-10&quot;' value='2010' />
+                <alias key='&quot;Apr-11&quot;' value='2011' />
+                <alias key='&quot;Apr-12&quot;' value='2012' />
+                <alias key='&quot;Apr-13&quot;' value='2013' />
+                <alias key='&quot;Apr-14&quot;' value='2014' />
+                <alias key='&quot;Apr-15&quot;' value='2015' />
+                <alias key='&quot;Apr-16&quot;' value='2016' />
+                <alias key='&quot;Apr-17&quot;' value='2017' />
+                <alias key='&quot;Apr-18&quot;' value='2018' />
+                <alias key='&quot;Apr-19&quot;' value='2019' />
+                <alias key='&quot;Apr-20&quot;' value='2020' />
+                <alias key='&quot;Apr-21&quot;' value='2021' />
+                <alias key='&quot;Apr-22&quot;' value='2022' />
+              </aliases>
+            </column>
+            <column-instance column='[Population estimate]' derivation='Avg' name='[avg:Population estimate:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[GEO]' derivation='None' name='[none:GEO:nk]' pivot='key' type='nominal' />
+            <column-instance column='[REF_DATE]' derivation='None' name='[none:REF_DATE:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1w8226d0b85wjg10tp1q10je8vqg].[none:GEO:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:GEO:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:GEO:nk]' member='&quot;Canada&quot;' />
+                <groupfilter function='member' level='[none:GEO:nk]' member='%null%' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1w8226d0b85wjg10tp1q10je8vqg].[none:REF_DATE:nk]'>
+            <groupfilter function='member' level='[none:REF_DATE:nk]' member='&quot;Apr-22&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1w8226d0b85wjg10tp1q10je8vqg].[none:GEO:nk]</column>
+            <column>[federated.1w8226d0b85wjg10tp1q10je8vqg].[none:REF_DATE:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1w8226d0b85wjg10tp1q10je8vqg].[none:GEO:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-size' value='8' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1w8226d0b85wjg10tp1q10je8vqg].[none:GEO:nk]</rows>
+        <cols>[federated.1w8226d0b85wjg10tp1q10je8vqg].[avg:Population estimate:qk]</cols>
+      </table>
+      <simple-id uuid='{B03BB683-A9E0-40EC-A269-90F2193941EE}' />
+    </worksheet>
+    <worksheet name='Vacancy Rate in BC'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Vacancy Rate in British Columbia </run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='british columbia_section1_' name='federated.00onm7i15tqcva1a2gj8v1pafma0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.00onm7i15tqcva1a2gj8v1pafma0'>
+            <column caption='Vacancy Rate' datatype='string' name='[F19]' role='dimension' type='nominal' />
+            <column caption='Year' datatype='string' name='[F1]' role='dimension' type='nominal' />
+            <column-instance column='[F19]' derivation='None' name='[none:F19:nk]' pivot='key' type='nominal' />
+            <column-instance column='[F1]' derivation='None' name='[none:F1:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.00onm7i15tqcva1a2gj8v1pafma0].[none:F19:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:F19:nk]' />
+              <groupfilter function='member' level='[none:F19:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.00onm7i15tqcva1a2gj8v1pafma0].[none:F19:nk]' kind='hide'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:F19:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:F19:nk]' member='&quot;availablesupply&quot;' />
+                <groupfilter function='member' level='[none:F19:nk]' member='&quot;british columbia&quot;' />
+                <groupfilter function='member' level='[none:F19:nk]' member='&quot;Rental vacancy rate (\%)3&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <natural-sort column='[federated.00onm7i15tqcva1a2gj8v1pafma0].[none:F19:nk]' direction='DESC' />
+          <filter class='categorical' column='[federated.00onm7i15tqcva1a2gj8v1pafma0].[none:F1:nk]'>
+            <groupfilter function='level-members' level='[none:F1:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.00onm7i15tqcva1a2gj8v1pafma0].[none:F1:nk]' kind='hide'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:F1:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:F1:nk]' member='&quot;1990&quot;' />
+                <groupfilter function='member' level='[none:F1:nk]' member='&quot;1991&quot;' />
+                <groupfilter function='member' level='[none:F1:nk]' member='&quot;1992&quot;' />
+                <groupfilter function='member' level='[none:F1:nk]' member='&quot;1993&quot;' />
+                <groupfilter function='member' level='[none:F1:nk]' member='&quot;1994&quot;' />
+                <groupfilter function='member' level='[none:F1:nk]' member='&quot;1995&quot;' />
+                <groupfilter function='member' level='[none:F1:nk]' member='&quot;1996&quot;' />
+                <groupfilter function='member' level='[none:F1:nk]' member='&quot;1997&quot;' />
+                <groupfilter function='member' level='[none:F1:nk]' member='&quot;1998&quot;' />
+                <groupfilter function='member' level='[none:F1:nk]' member='&quot;1999&quot;' />
+                <groupfilter function='member' level='[none:F1:nk]' member='&quot;2000&quot;' />
+                <groupfilter function='member' level='[none:F1:nk]' member='&quot;2001&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.00onm7i15tqcva1a2gj8v1pafma0].[none:F1:nk]</column>
+            <column>[federated.00onm7i15tqcva1a2gj8v1pafma0].[none:F19:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.00onm7i15tqcva1a2gj8v1pafma0].[none:F19:nk]' value='128' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <encodings>
+              <color column='[federated.00onm7i15tqcva1a2gj8v1pafma0].[none:F19:nk]' />
+              <text column='[federated.00onm7i15tqcva1a2gj8v1pafma0].[none:F19:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='shape' value=':filled/diamond' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.00onm7i15tqcva1a2gj8v1pafma0].[none:F19:nk]</rows>
+        <cols>[federated.00onm7i15tqcva1a2gj8v1pafma0].[none:F1:nk]</cols>
+      </table>
+      <simple-id uuid='{77B30B7B-E317-4990-A871-6ED89AC3F7C3}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 2'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98232' id='37' param='horz' type-v2='layout-flow' w='98910' x='545' y='884'>
+            <zone h='98232' id='35' type-v2='layout-basic' w='98910' x='545' y='884'>
+              <zone h='70386' id='32' param='horz' type-v2='layout-flow' w='98910' x='545' y='884'>
+                <zone h='70386' id='24' type-v2='layout-basic' w='98910' x='545' y='884'>
+                  <zone h='25749' id='22' param='horz' type-v2='layout-flow' w='98910' x='545' y='884'>
+                    <zone h='25749' id='5' type-v2='layout-basic' w='98910' x='545' y='884'>
+                      <zone h='25749' id='9' name='Population by Region 2022' w='49464' x='49991' y='884'>
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='4' />
+                        </zone-style>
+                      </zone>
+                      <zone h='25749' id='13' name='Population by Region 2000' w='49446' x='545' y='884'>
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='4' />
+                        </zone-style>
+                      </zone>
+                    </zone>
+                  </zone>
+                  <zone h='44637' id='29' name='BC Population' w='49416' x='545' y='26633'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='41302' id='30' name='HIP' w='49494' x='49961' y='26633'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='3335' id='33' name='HIP' pane-specification-id='12' param='[federated.13vmq7804pcngk18oj9ee1evshbi].[sum:British Columbia :qk]' show-title='false' type-v2='color' w='49494' x='49961' y='67935'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                </zone>
+              </zone>
+              <zone h='27846' id='34' name='Vacancy Rate in BC' w='98910' x='545' y='71270'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1300' minheight='1300' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='41' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98330' id='40' param='vert' type-v2='layout-flow' w='98940' x='530' y='835'>
+                <zone fixed-size='198' h='25775' id='13' is-fixed='true' name='Population by Region 2000' w='49462' x='530' y='835'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='198' h='25775' id='9' is-fixed='true' name='Population by Region 2022' w='49478' x='49992' y='835'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='44682' id='29' is-fixed='true' name='BC Population' w='49432' x='530' y='26610'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='41344' id='30' is-fixed='true' name='HIP' w='49508' x='49962' y='26610'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='3338' id='33' name='HIP' pane-specification-id='12' param='[federated.13vmq7804pcngk18oj9ee1evshbi].[sum:British Columbia :qk]' show-title='false' type-v2='color' w='49508' x='49962' y='67954'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='215' h='27873' id='34' is-fixed='true' name='Vacancy Rate in BC' w='98940' x='530' y='71292'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{8B342AB9-43D7-4129-AAED-EFDF58675037}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='72'>
+    <window class='dashboard' maximized='true' name='Dashboard 2'>
+      <viewpoints>
+        <viewpoint name='BC Population'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='HIP'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Population by Region 2000'>
+          <zoom type='fit-width' />
+        </viewpoint>
+        <viewpoint name='Population by Region 2022'>
+          <zoom type='fit-width' />
+        </viewpoint>
+        <viewpoint name='Vacancy Rate in BC'>
+          <zoom type='fit-width' />
+        </viewpoint>
+      </viewpoints>
+      <active id='34' />
+      <simple-id uuid='{2D2B8027-9B95-4D0D-8947-9D8FEF959DC6}' />
+    </window>
+    <window class='worksheet' name='Population by Region 2000'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.1w8226d0b85wjg10tp1q10je8vqg].[none:GEO:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+      </viewpoint>
+      <simple-id uuid='{0636DA20-163C-4A4E-9049-3ABB4104A668}' />
+    </window>
+    <window class='worksheet' name='Population by Region 2022'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.1w8226d0b85wjg10tp1q10je8vqg].[none:GEO:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+      </viewpoint>
+      <simple-id uuid='{83C01866-A1B1-4140-A336-A5101802641C}' />
+    </window>
+    <window class='worksheet' name='BC Population'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1w8226d0b85wjg10tp1q10je8vqg].[none:REF_DATE:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{054444BF-273B-4851-BA3F-42DEA0D4E187}' />
+    </window>
+    <window class='worksheet' name='HIP'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='12' param='[federated.13vmq7804pcngk18oj9ee1evshbi].[sum:British Columbia :qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{4D95DBAA-D518-4BCE-BF7B-26C9CB79D2BB}' />
+    </window>
+    <window class='worksheet' name='Vacancy Rate in BC'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.00onm7i15tqcva1a2gj8v1pafma0].[none:F19:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+      </viewpoint>
+      <simple-id uuid='{1AAF7F59-D813-4377-8A5E-70F6048F8808}' />
+    </window>
+  </windows>
+</workbook>
