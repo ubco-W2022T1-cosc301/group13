@@ -11,6 +11,14 @@ Here, we're able to see how many new dwellings (places to live) have their const
 #### Comments
 This bar graph gives us an understanding of the trend Average Income has followed in Vancouver. It has been rising consistently for quite a while now - but does not seem to follow the trends of HPI. Further analysis is needed but this is a good overview of its progression over the years.
 
+![Canada's HPI](images/michael_eda1.PNG)
+#### Comments
+We can see the general trend of the Housing Price Index scores, Canada wide, over the last 40 years. Overall, Canada's HPI score has increased significantly, but not smoothly. By looking at the trends of other variables, like population, we can see what does and what doesn't have notable influence over HPI scores in Canada.
+
+![Population by Region](images/michael_eda2.PNG)
+#### Comments
+After some processing, we'll return to this chart, but for now we can see right away that the population in each region of Canada has increased quite linearly - very different from how HPI has changed overall. 
+
 ### Research Question 1 + Results:
 Question: How has Income Distribution and Population impacted housing prices in Vancouver?
 
@@ -63,6 +71,22 @@ I chose to look at the HPI because it is a more accurate representation of housi
 Here is my last visualization 5, and I wanted to see all the data side by side to conclude the analysis. Here I can also see the vacancy rate together with other population data and HPI data. Looking at the 'vacancy rate data, ' we can see that 3.1%, which is good for people because that means that there are a lot of properties for them available to rent, was really only in the early 2000s. As the population increased, we can see that the vacancy rate decreased, resulting in less property available to rent. In fact, the most recent data was 1.3% which is really low. This confirms my hypothesis that as the population increases and the price of buying a house goes up, more people are renting, which leads to a lower rent vacancy rate. However, this particular data goes up and down over the years despite generally being higher, like 3.1% and 2.4%, in the past and lower in more recent years, 1.5% and 1.3%. But we can also see that some data went back showing that there were some increases in the vacancy rate in the more recent years, for example, 2.4% appeared in the year 2012 and 2.7% in 2015. Suggesting that both HPI and Vacancy Rate in BC are affected by population growth, but also, there must be some other factors that make them go up and down other than the population growth in BC, which has been steadily increasing over the years.
 
 ### Research Question 3 + Results:
+Question: How do changes in population affect the Housing Price Index across Canada?
+
+![Population by Region](images/michael_rq3.PNG)
+
+#### Comments
+Here is the chart of populations by region over the years after a little touching-up. I'll be using this in comparisons with HPI scores by regions, to see if the population and HPI changes are similar, or if perhaps I am wrong and the population of a region does not strongly affect that region's HPI.
+
+![Ontario HPI](images/michael_rq4.PNG)
+
+#### Comments
+First, I took a look at Ontario. While the HPI scores in Ontario have increased overall, there have been dips and plateaus that are not seen in our population data for the region. Beyond that, the increase in HPI is far steeper - the lines have almost nothing in common. With a steady increase in population but variable changes in HPI in Ontario, it's unlikely that population is a primary driver of HPI values here. 
+
+![Prince Edward Island HPI](images/michael_rq5.PNG)
+
+#### Comments
+To compare with Ontario, I wanted to take a look at Prince Edward Island and the HPI trend there, as it is a very different region from Ontario. We can see that the trend in Prince Edward Island has been quite different from the trend in Ontario, although similar in the last few (exceptional!) years. However, if we take a look at the population trends for these regions, we see that they are both stable and linear. This is not what I expected to see!
 
 ## Summary/Conclusion
 #### Research Question 1: 
@@ -86,3 +110,10 @@ However, looking at the data for the 'vacancy rate', the rate is low overall or 
 This leads me to conclude that my answer is yes to my research question of whether the population impacts house prices and the rental market. But when it comes to these two variables, other forces are at play, which sometimes changes HIP and rental vacancy rate values throughout the years, making them go up and down.
 
 This could explain what happened during COVID-19 when the mortgage interest rates were lowered, causing house prices to go down, despite the increasing population, and more people were buying a house rather than renting. Or how many people moved from rental properties to live at home with families increasing the rental vacancy rate.
+
+#### Research Question 3:
+How do changes in population affect the Housing Price Index across Canada?
+
+#### Conclusion:
+After comparing the population changes with the HPI changes for different regions across Canada, as well as comparing the HPI changes across regions to each other, I can see that my hypothesis was wrong. While I thought that population changes in a region would be directly reflected in the HPI trend for that region, it appears as though that is untrue. With a steady population but variable changes in HPI, population can't be a main driver - and beyond that, the HPI changes differ between ranges. For example, scores in P.E.I. plateaued between 2010 and 2015, but increased in Ontario during that same period. This suggests that the main variables responsible for affecting HPI scores are regional, once again ruling out population as population has steadily increased across all regions in Canada. This is still useful however, as now we know not to worry about population changes as we look for solutions to the unreasonable housing prices here in Canada.
+
